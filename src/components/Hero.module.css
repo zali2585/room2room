@@ -1,0 +1,163 @@
+.hero {
+  background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 60%, #2563eb 100%);
+  padding: 56px 24px 48px;
+}
+
+.inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.left {
+  flex: 1;
+  min-width: 0;
+}
+
+.headline {
+  font-size: 42px;
+  font-weight: 800;
+  color: var(--white);
+  line-height: 1.15;
+  margin-bottom: 16px;
+  letter-spacing: -0.5px;
+}
+
+.headline span {
+  color: var(--yellow);
+}
+
+.sub {
+  font-size: 14px;
+  color: rgba(255,255,255,0.82);
+  line-height: 1.65;
+  max-width: 480px;
+  margin-bottom: 28px;
+}
+
+.sun {
+  font-style: normal;
+}
+
+.searchRow {
+  margin-bottom: 20px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--white);
+  border-radius: 30px;
+  padding: 10px 10px 10px 18px;
+  max-width: 520px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.searchBar input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 14px;
+  color: var(--gray-700);
+  font-family: inherit;
+}
+
+.searchBar input::placeholder {
+  color: var(--gray-400);
+}
+
+.searchBtn {
+  background: var(--yellow);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.searchBtn:hover {
+  background: var(--yellow-dark);
+}
+
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pill {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(255,255,255,0.85);
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.25);
+  padding: 5px 14px;
+  border-radius: 20px;
+  transition: background 0.15s;
+}
+
+.pill:hover {
+  background: rgba(255,255,255,0.28);
+}
+
+.right {
+  flex-shrink: 0;
+}
+
+.trustCard {
+  background: var(--white);
+  border-radius: 16px;
+  padding: 24px 28px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  min-width: 260px;
+}
+
+.trustTop {
+  margin-bottom: 20px;
+}
+
+.trustTitle {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 24px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.statNum {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--blue);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.star {
+  font-size: 16px;
+}
+
+.statLabel {
+  font-size: 11px;
+  color: var(--gray-500);
+  line-height: 1.3;
+}
