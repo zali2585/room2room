@@ -39,10 +39,10 @@ Project Background
 
 This repository is an independently maintained continuation of a project that was originally developed as a collaborative academic team project. The current repository was created to document, maintain, and further improve the platform beyond its original scope. While the initial concept and foundation were developed collaboratively, ongoing development, refinements, and future enhancements in this repository reflect my independent work and contributions.
 
-Future Improvements
-Real-time notifications
-Advanced search and filtering
-Item recommendation system
-AI-assisted listing generation
-In-app transaction support
-Campus expansion to additional universities
+Future Improvements | 
+Real-time notifications | 
+Advanced search and filtering | 
+Item recommendation system | 
+AI-assisted listing generation | 
+In-app transaction support | 
+Campus expansion to additional universities | 
